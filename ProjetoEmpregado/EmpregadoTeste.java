@@ -1,3 +1,4 @@
+package ProjetoEmpregado;
 public class EmpregadoTeste {
     public static void main(String[] args) {
         // Criando instâncias de Empregado

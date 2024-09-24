@@ -1,3 +1,4 @@
+package ProjetoEmpregado;
 public class Empregado {
     public String nome;
     public String sobrenome;
