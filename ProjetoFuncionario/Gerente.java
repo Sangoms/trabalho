@@ -1,5 +1,3 @@
- package ProjetoFuncionario;
-
 public class Gerente extends Funcionario {
     private double bonus;
 
@@ -16,10 +14,8 @@ public class Gerente extends Funcionario {
         this.bonus = bonus;
     }
 
-    @Override
+    
     public double calcularSalario() {
         return super.calcularSalario() + bonus;
     }
 }
-
-    
