@@ -1,14 +1,13 @@
 package ProjetoFuncionario;
 
 public class Funcionario {
-   private String nome;
-   private double salarioBase;  
+    private String nome;
+    private double salarioBase;  
 
-     Funcionario(String nome,double salarioBase){
+    public Funcionario(String nome, double salarioBase) {
         this.nome = nome;
-        this.salariobase = salarioBase;
-
-     }
+        this.salarioBase = salarioBase; 
+    }
 
     public String getNome() {
         return nome;
@@ -25,8 +24,8 @@ public class Funcionario {
     public void setSalarioBase(double salarioBase) {
         this.salarioBase = salarioBase;
     }
-    public double calcSalario(){
+
+    public double calcularSalario() { 
         return salarioBase;
-        
     }
 }
