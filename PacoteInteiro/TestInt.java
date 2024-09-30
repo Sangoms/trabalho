@@ -1,4 +1,4 @@
-package src.Inteiro;
+package PacoteInteiro;
 
 public class TestInt {
     public static void main(String[] args) {

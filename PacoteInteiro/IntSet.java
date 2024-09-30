@@ -1,4 +1,4 @@
-package src.Inteiro;
+package PacoteInteiro;
 
 public class IntSet {
     private boolean[] conjunto;
